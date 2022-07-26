@@ -1,6 +1,3 @@
-from heapq import merge
-
-
 def mergesort(arr, tab=0): #Tab is just to make the print prettier by indented
     newarr = []
     if(len(arr) <= 1): #If length is 1 return
